@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    height: 450px;
+    width: 300px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;;
+    border-radius: 20px;
+}
+textarea{
+    border-radius: 20px;
+    border: 10px oild #333333 s;
+    height: 40px;
+    width: 285px;
+    color: white;
+    background-color: black;
+    text-align: right;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn,#equal,#clear,#delete{
+    background-color:#333333 ;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    margin: 5px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#zero{
+    width: 100px;
+    border-radius: 30px;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+#divide, #multiply, #subtract, #add, #equal{
+    background-color: #ff9f0a;
+}
+#clear, #delete, #percent{
+    background-color:#a5a5a5 ;
+}
