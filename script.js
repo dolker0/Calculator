@@ -55,7 +55,3 @@ deleteBtn.addEventListener("click",()=>{
     console.log(noInput);
 })
 
-var string = 'sonam';
-string.slice(1,2);
-console.log(string);
-
